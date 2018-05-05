@@ -1,0 +1,8 @@
+{
+  "name": "microservice-poc-monotype",
+  "version": "0.1.0",
+  "dependencies": {
+    "express": "^4.15.3",
+    "jackrabbit": "^4.3.0"
+  }
+}
