@@ -28,11 +28,10 @@ app.get('/sendMessage',function(req,res){
 var urlPart=UrlObject.parse(req.url,true);
 var message=urlPart.query.msg;
  aqmpConsumer.publish({displayName:message}, {key:eventTriggerQueue 
-    // ,reply: function onReply(data){
-    //     res.send(data);
-    // }
+     ,reply: function onReply(data){
+         res.send(data);
+     }
     });
-   // res.send('Ok');
 });
 
 //creating server
