@@ -1,6 +1,6 @@
 # RPCMicroService
-RPCMicroservice ims to show synchronous communication between different microservice using Remote Procedure call protocol of RabbitMQ.
-We will be using jackrabbit npm package for amqp connection. JackRabbit provides nabstractiona and make implementation simpler.
+RPCMicroservice aims to show synchronous communication between different microservice using Remote Procedure call protocol of RabbitMQ.
+We will be using jackrabbit npm package for amqp connection. JackRabbit provides abstraction and make implementation simpler.
 
 # Prerequisites
 * RabbitMQ installed and accessible form both the MicroServices
